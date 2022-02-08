@@ -1,0 +1,19 @@
+
+At present the recent wokwi repository is used,
+as a base for newly created repositories (to
+retain a significantly older Initial commit
+across multiple repositories - for new work).
+
+ git reset --hard
+ git gc
+
+These two are primarily used to limit the extent of
+old (unwanted) stuff from that repository.
+
+ du -ka
+
+This is used to check for significant reductions in
+storage (don't really care if unused resources are
+not purged - not a security issue at all).
+
+08 Feb 2022
